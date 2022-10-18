@@ -21,7 +21,7 @@ class Program
     		    sums[i] = Math.Max(sums[i], (int)(sums[i-3] * 1.2));
     		
     		if (i >= 5)
-    			sums[i] = Math.Max(sums[i], (int)(sums[i-5] * 1.35));
+		    sums[i] = Math.Max(sums[i], (int)(sums[i-5] * 1.35));
         }
         
         WriteLine(sums[y]);
